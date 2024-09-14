@@ -45,19 +45,25 @@ class Fraction:
 f1 = Fraction(1, 2)
 f2 = Fraction(1, 3)
 
+print("Debug: Running the latest version of fraction_class.py")  # Add this at the top of your script
+
 # adding two fractions
 f3 = f1 + f2
-print(f3) # output: 5/6
+print(f"Addition of {f1} and {f2} is {f3}") # output: Addition of 1/2 and 1/3 is 5/6
 
 # subtracting two fractions
 f4 = f1 - f2
-print(f4) # output: 1/6
+print(f"Subtraction of {f1} and {f2} is {f4}") # output: Subtraction of 1/2 and 1/3 is 1/6
 
 # multiplying two fractions
 f5 = f1 * f2
-print(f5) # output: 1/6
+print(f"Multiplication of {f1} and {f2} is {f5}") # output: Multiplication of 1/2 and 1/3 is 1/6
 
 # dividing two fractions
 f6 = f1 / f2
+print(f"Division of {f1} and {f2} is {f6}") # output: Division of 1/2 and 1/3 is 3/2
 print(f6) # output: 3/2
 
+# dividing by zero
+f7 = Fraction(1, 0)
+print(f7) # output: division by zero
